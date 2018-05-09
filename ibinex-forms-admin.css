@@ -1,0 +1,60 @@
+/**
+ * WP Admin Content
+ */
+#wpcontent {
+    padding-left: 0;
+    background-color: #f1f1f1;
+}
+
+
+/**
+ * Navigation Bar
+ */
+.navbar {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+}
+
+.navbar .navbar-brand {
+    color: #555;
+}
+
+.navbar .navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+#new-form-modal .modal-header {
+    color: #fff;
+    background-color: #a3be5f;
+}
+
+
+/**
+ * New Form Modal
+ */
+#new-form-modal .form-template {
+    width: 175px;
+    height: 200px;
+    padding: 0 8px;
+    border: 3px dashed #d1d1d1;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #555;
+    text-decoration: none;
+}
+
+#new-form-modal .form-template:hover {
+    background-color: #f1f1f1;
+    border-color: #a3be5f;
+}
+
+
+/**
+ * Home Page
+ */
+.home-main {
+    min-height: 85vh;
+}
