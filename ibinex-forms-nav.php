@@ -44,9 +44,19 @@
             </div>
 
             <div class="modal-body">
-                <a class="form-template" href="#">
+                <a class="new-form-template" href="#">
                     <small>Blank Form</small>
                 </a>
+                <a class="new-form-template" href="#">
+                    <small>Blank Form 2</small>
+                </a>
+                <a class="new-form-template" href="#">
+                    <small>Blank Form 3</small>
+                </a>
+                <a class="new-form-template" href="#">
+                    <small>Blank Form 4</small>
+                </a>
+                <div class="new-form-options"></div>
             </div>
 
             <!--

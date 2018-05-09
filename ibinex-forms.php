@@ -31,12 +31,13 @@ class Ibinex_Forms
 
     public function enqueue_admin_scripts() {
         wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css', array(), '4.1.0' );
-        wp_enqueue_style( 'ibinex-forms-admin-styles', plugins_url('ibinex-forms-admin.css', __FILE__) );
+        wp_enqueue_style( 'ibinex-forms-admin-style', plugins_url('ibinex-forms-admin.css', __FILE__) );
     }
 
     public function enqueue_admin_styles() {
         wp_enqueue_script( 'popper-js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js', array('jquery'), '1.14.0', true );
         wp_enqueue_script( 'bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js', array('jquery'), '4.1.0', true );
+        wp_enqueue_script( 'ibinex-forms-admin-script', plugins_url('ibinex-forms-admin.js', __FILE__) );
     }
 
     public function activate_plugin() {
