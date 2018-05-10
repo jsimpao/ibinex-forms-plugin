@@ -43,22 +43,93 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
 
-            <div class="modal-body">
-                <a class="new-form-template" href="#">
-                    <small>Blank Form</small>
-                </a>
-                <a class="new-form-template" href="#">
-                    <small>Blank Form 2</small>
-                </a>
-                <a class="new-form-template" href="#">
-                    <small>Blank Form 3</small>
-                </a>
-                <a class="new-form-template" href="#">
-                    <small>Blank Form 4</small>
-                </a>
-                <div class="new-form-options"></div>
-            </div>
+            <div class="modal-body row">
+                <div class="col-3">
+                    <a class="form-template unselected" href="#">
+                        <div class="unselected-name">
+                            <small>Blank Form</small>
+                        </div>
+                        <div class="unselected-body"></div>
+                    </a>
+                    <div class="form-template selected d-none">
+                        <div class="selected-name"></div>
+                        <div class="selected-body"></div>
+                    </div>
+                </div>
 
+                <div class="col-3">
+                    <a class="form-template unselected" href="#">
+                        <div class="unselected-name">
+                            <small>Contact Form</small>
+                        </div>
+                        <div class="unselected-body"></div>
+                    </a>
+                    <div class="form-template selected d-none">
+                        <div class="selected-name"></div>
+                        <div class="selected-body"></div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <a class="form-template unselected" href="#">
+                        <div class="unselected-name">
+                            <small>Registration Form</small>
+                        </div>
+                        <div class="unselected-body"></div>
+                    </a>
+                    <div class="form-template selected d-none">
+                        <div class="selected-name"></div>
+                        <div class="selected-body"></div>
+                    </div>
+                </div>
+
+                <!--
+                <div class="col-3">
+                    <a class="form-template unselected" href="#">
+                        <div>
+                            <small class="form-template-name">Blank Form 2</small>
+                        </div>
+                        <div class="form-template-body"></div>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a class="form-template unselected" href="#">
+                        <div>
+                            <small class="form-template-name">Blank Form 3</small>
+                        </div>
+                        <div class="form-template-body"></div>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a class="form-template unselected" href="#">
+                        <div>
+                            <small class="form-template-name">Blank Form 4</small>
+                        </div>
+                        <div class="form-template-body"></div>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a class="form-template unselected" href="#">
+                        <div>
+                            <small class="form-template-name">Blank Form 5</small>
+                        </div>
+                        <div class="form-template-body"></div>
+                    </a>
+                </div>
+
+                <div class="col-3">
+                    <a class="form-template unselected" href="#">
+                        <div>
+                            <small class="form-template-name">Blank Form 6</small>
+                        </div>
+                        <div class="form-template-body"></div>
+                    </a>
+                </div>
+            </div>
+            -->
             <!--
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>

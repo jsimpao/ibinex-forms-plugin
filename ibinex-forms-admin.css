@@ -34,23 +34,22 @@
 /**
  * New Form Modal
  */
-#new-form-modal .modal-body {
-    position: relative;
-}
-
 #new-form-modal .form-template {
     width: 175px;
     height: 200px;
-    color: #555;
     padding: 0 8px;
-    border: 3px dashed #d1d1d1;
     border-radius: 3px;
+    display: block;
     box-sizing: border-box;
-    display: inline-block;
     text-decoration: none;
 }
 
-#new-form-modal .form-template:hover {
+#new-form-modal .unselected {
+    color: #555;
+    border: 3px dashed #d1d1d1;
+}
+
+#new-form-modal .unselected:hover {
     background-color: #f1f1f1;
     border-color: #a3be5f;
 }
@@ -58,20 +57,34 @@
 #new-form-modal .selected {
     color: #fff;
     background-color: #a3be5f;
-    width: 360px;
-    border-style: none;
-    border-color: #a3be5f;
 }
 
-/*
-#new-form-modal .form-template:hover {
-    background-color: #f1f1f1;
-    border-color: #a3be5f;
+#new-form-modal .selected-input-name {
+    width: 160px;
+    margin: 10px 0 40px;
 }
-*/
+
+#new-form-modal .selected-btn {
+    color: #a3be5f;
+    background-color: #fff;
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+#new-form-modal .selected-btn:hover {
+    background-color: #efefef;
+}
+
+
 /**
  * Home Page
  */
 .home-main {
-    min-height: 85vh;
+    min-height: 80vh;
+    padding: 75px 15px 0;
+}
+
+.home-main div {
+    width: 600px;
+    height: 90px;
 }
